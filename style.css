@@ -496,7 +496,7 @@ body {
 @media(min-width:1250px) {
     
     body {
-        width: 1800px;
+        width: 1250px;
         min-height: 4284px;
         box-sizing: border-box;
     }
