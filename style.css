@@ -1,0 +1,825 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 330px;
+    min-height: 4014px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 31px;
+}
+
+.page-header {
+    width: 300px;
+    min-height: 30px;
+    box-sizing: border-box;
+    margin: 22px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-heder-logo {
+    width: 106px;
+    height: 30px;
+    background-image: url(img/page-header-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page-header-link-image {
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+
+.page-main {
+    width: 300px;
+    min-height: 3900px;
+    background-color: #f5f0f0;
+    padding-bottom: 58px;
+    box-sizing: border-box;
+}
+
+.page-main-block-whoWe {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-whoWe {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.block-whoWe-image {
+    width: 280px;
+    height: 174px;
+    background-image: url(img/whoWe-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 0;
+    align-self: flex-end;
+    position: absolute;
+}
+
+.block-whoWe-wrapper {
+    width: 280px;
+    min-height: 400px;
+    padding: 40px 22px 44px 21px;
+    z-index: 1;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin: 135px 0 0 0;
+}
+
+.block-whoWe-wrapper-header {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #4764b0;
+    margin: 0 0 20px 0;
+}
+
+.block-whoWe-wrapper-txt {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #1e1e1e;
+    margin: 0 0 15px 0;
+}
+
+.block-whoWe-wrapper-txt:last-child {
+    margin: 0;
+}
+.page-main-block-ourProjects {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 40px 0 0 0;
+}
+
+.block-ourProjects-wrapper {
+    width: 100%;
+    padding: 0 24px 0 30px;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+.block-ourProjects-wrapper-header {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #4764b0;
+    margin: 0 0 20px 0;
+}
+
+.block-ourProjects-wrapper-txt {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+
+.container-ourProjects {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 0;
+    position: relative;
+}
+
+.block-ourProjects-image {
+    display: block;
+    width: 280px;
+    height: 168px;
+    background-image: url(img/ourProjects-image.png);
+    background-size: contain;
+    z-index: 0;
+    position: absolute;
+}
+
+.block-ourProjects-article{
+    width: 280px;
+    min-height: 272px;
+    background-color: #ffffff;
+    padding: 28px 34px 27px 20px;
+    box-sizing: border-box;
+    z-index: 1;
+    align-self: flex-end;
+    margin: 136px 0 0 0;
+}
+
+.block-ourProjects-article-subtitle {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #1e1e1e;
+    margin: 0 0 15px 0;
+}
+
+.block-ourProjects-article-txt {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+
+.block-ourProjects-wrapper-footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 24px 0 30px;
+    margin: 30px 0 43px 0;
+}
+
+.block-ourProjects-wrapper-footer-txt {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+
+.page-main-block-intecoNow {
+    width: 100%;
+    min-height: 944px;
+    margin-top: 40px;
+}
+
+.block-intecoNow-wrapper {
+    width: 300px;
+    padding: 0 62px 0 19px;
+    box-sizing: border-box;
+}
+
+.block-intecoNow-wrapper-header {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #4764b0;
+    box-sizing: border-box;
+}
+
+.block-intecoNow-wrapper-txt {
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 24px;
+}
+
+.intecoNow-wrapper-txt {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #1e1e1e;
+    margin-right: 25px;
+}
+
+.intecoNow-wrapper-txt:last-child {
+    margin: 0;
+}
+
+.wrapper-intecoNow-span {
+    width: 80px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #1e1e1e;
+    box-sizing: border-box;
+    margin-bottom: 17px;
+}
+
+.more-span {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1e1e1e;
+}
+
+.number-span {
+    font-size: 36px;
+    line-height: 32px;
+}
+
+.people-span {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1e1e1e;
+}
+
+.txt-span {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    color: #1e1e1e;
+    font-weight: 400;
+    text-transform: none;
+    display: block;
+}
+
+.about-span {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1e1e1e;
+}
+
+.mln-span {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1e1e1e;
+}
+
+.container-intecoNow {
+    width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 47px;
+}
+
+.block-intecoNow-list {
+    width: 280px;
+    min-height: 354px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.intecoNow-list {
+    list-style-type: none;
+    padding: 28px 35px 30px 20px;
+}
+
+.intecoNow-list-item {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #1e1e1e;
+    margin-bottom: 20px;
+}
+
+.intecoNow-list-item:last-child {
+    margin: 0;
+}
+
+.intecoNow-list-item:before {
+    content: "—";
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #4764b0;
+    margin-right: 5px;
+}
+
+.block-intecoNow-image {
+    display: block;
+    width: 280px;
+    height: 174px;
+    background-image: url(img/intecoNow-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: flex-end;
+    position: absolute;
+    top: 377px;
+    z-index: 0;
+}
+
+.page-main-block-basicPrinciplesOfWorkWithPersonnel {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 70px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.block-basicPrinciplesOfWorkWithPersonnel-header {
+    display: block;
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #4764b0;
+    box-sizing: border-box;
+    padding: 0 24px 0 20px;
+}
+
+.block-basicPrinciplesOfWorkWithPersonnel-wrapper {
+    width: 280px;
+    min-height: 400px;
+    background-color: #ffffff;
+    padding: 35px 21px 48px 20px;
+    margin: 27px 0 0 0;
+    box-sizing: border-box;
+    align-self: flex-end;
+    position: relative;
+}
+
+.block-basicPrinciplesOfWorkWithPersonnel-wrapper-subtitle {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+
+.basicPrinciplesOfWorkWithPersonnel-arraw {
+    display: none;
+    width: 20px;
+    height: 18px;
+    background-image: url(img/basicPrinciplesOfWorkWithPersonnel-arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 55px;
+    right: 60px;
+}
+
+.block-basicPrinciplesOfWorkWithPersonnel-wrapper-subtitle:after {
+    content: "";
+    display: block;
+    width: 238px;
+    height: 4px;
+    background-image: url(img/basicPrinciplesOfWorkWithPersonnel-line.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px 0 25px 0;
+
+}
+
+.block-basicPrinciplesOfWorkWithPersonnel-wrapper-txt {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+
+.page-main-block-theCompanyOffersItsEmployees {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 60px 0 0 0;
+}
+
+.block-theCompanyOffersItsEmployees-header {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #4764b0;
+    padding: 0 51px 0 30px;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+.container-theCompanyOffersItsEmployees {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 0;
+    position: relative;
+
+}
+
+.block-theCompanyOffersItsEmployees-image {
+    display: block;
+    width: 280px;
+    height: 202px;
+    background-image: url(img/theCompanyOffersItsEmployees-image.png);
+    background-size: contain;
+    z-index: 0;
+    position: absolute;
+}
+
+.block-theCompanyOffersItsEmployees-list {
+    width: 280px;
+    min-height: 690px;
+    background-color: #ffffff;
+    padding: 32px 20px 35px 20px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    z-index: 1;
+    margin: 162px 0 0 0;
+}
+
+.theCompanyOffersItsEmployees-list {
+    list-style-type: none;
+}
+
+.theCompanyOffersItsEmployees-list-item {
+    margin: 0 0 15px 0;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+
+.theCompanyOffersItsEmployees-list-item:last-child {
+    margin: 0 0 0 0;
+}
+
+.theCompanyOffersItsEmployees-list-item:before {
+    content: "—";
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #4764b0;
+    margin: 0 5px 0 0;
+}
+
+@media(min-width:1250px) {
+    
+    body {
+        width: 1800px;
+        min-height: 4284px;
+        box-sizing: border-box;
+    }
+
+    .page-header {
+        width: 1250px;
+        min-height: 40px;
+        margin: 85px 0 40px 0;
+        padding: 0 60px 0 60px;
+    }
+
+    .page-heder-logo {
+        width: 150px;
+        height: 40px;
+    }
+
+    .page-header-link-image {
+        display: block;
+    }
+
+    .page-main {
+        width: 1250px;
+        min-height: 4001px;
+    }
+
+    .page-main-block-whoWe {
+        width: 100%;
+        min-height: 570px;
+        box-sizing: border-box;
+    }
+
+    .container-whoWe {
+        min-height: 570px;
+
+    }
+
+    .block-whoWe-image {
+        width: 920px;
+        height: 570px;
+    }
+
+    .block-whoWe-wrapper {
+        width: 550px;
+        min-height: 440px;
+        box-sizing: border-box;
+        padding: 56px 39px 59px 60px; 
+        margin: 65px 0 0 0;
+    }
+
+    .block-whoWe-wrapper-header {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .block-whoWe-wrapper-txt {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 0 20px 0;
+    }
+
+    .page-main-block-ourProjects {
+        margin: 105px 0 0 0;
+    }
+
+    .block-ourProjects-wrapper {
+        padding: 0 225px 0 329px;
+    }
+
+    .block-ourProjects-wrapper-header {
+        font-size: 32px;
+        line-height: 38px;
+        margin: 0 0 30px 0;
+    }
+
+    .block-ourProjects-wrapper-txt {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .container-ourProjects {
+        margin: 60px 0 0 0;
+        min-height: 554px;
+
+    }
+
+    .block-ourProjects-image {
+        width: 920px;
+        height: 554px;
+        background-image: url(img/ourProjects-image-1250.png);
+    }
+
+    .block-ourProjects-article {
+        width: 470px;
+        min-height: 390px;
+        padding: 60px 65px 62px 50px;
+        margin: 35px 0 0 0;
+    }
+
+    .block-ourProjects-article-subtitle {
+        font-family: Arial;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #1e1e1e;
+        padding: 0 0 20px 0;
+    }
+
+    .block-ourProjects-article-txt {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .block-ourProjects-wrapper-footer {
+        margin: 55px 0 0 0;
+    }
+
+    .block-ourProjects-wrapper-footer-txt {
+        padding: 0 216px 0 330px;
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #1e1e1e;
+    }
+
+    .page-main-block-intecoNow {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 101px;
+    }
+
+    .block-intecoNow-wrapper {
+        width: 1130px;
+        align-self: center;
+        padding: 0;
+    }
+
+    .block-intecoNow-wrapper-header {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .block-intecoNow-wrapper-txt {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .intecoNow-wrapper-txt {
+        font-size: 16px;
+        line-height: 24px;
+        display: block;
+        width: 490px;
+    }
+
+    .block-intexoNow-span {
+        display: flex;
+    }
+
+    .wrapper-intecoNow-span {
+        width: 235px;
+        height: 86px;
+        box-sizing: border-box;
+        margin-right: 73px;
+    }
+
+    .wrapper-intecoNow-span:last-child {
+        margin: 0;
+    }
+
+    .more-span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .number-span {
+        font-size: 48px;
+        line-height: 42px;
+    }
+
+    .people-span {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+
+    .txt-span {
+        font-weight: 400;
+        text-transform: none;
+    }
+
+    .container-intecoNow {
+        width: 100%;
+        margin-top: 56px;
+    }
+
+    .block-intecoNow-list {
+        width: 470px;
+        min-height: 500px;
+        box-sizing: border-box;
+        padding: 65px 44px 69px 60px;
+        margin-top: 34px;
+    }
+
+    .intecoNow-list-item::before {
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #4764b0;
+    }
+
+    .intecoNow-list-item {
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #1e1e1e;
+        margin-bottom: 20px;
+    }
+
+    .intecoNow-list-item:last-child {
+        margin: 0;
+    }
+
+    .block-intecoNow-image {
+        display: block;
+        width: 920px;
+        height: 570px;
+        top: 0;
+        background-image: url(img/intecoNow-image-1250.png);
+    }
+
+    .page-main-block-basicPrinciplesOfWorkWithPersonnel {
+        margin-top: 105px;
+    }
+
+    .block-basicPrinciplesOfWorkWithPersonnel-header {
+        padding: 0 0 0 60px;
+        margin: 0 0 55px 0;
+        font-family: Arial;
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: 700;
+        color: #4764b0;
+    }
+
+    .block-basicPrinciplesOfWorkWithPersonnel-wrapper {
+        width: 1190px;
+        min-height: 320px;
+        padding: 51px 58px 62px 50px;
+    }
+
+    .block-basicPrinciplesOfWorkWithPersonnel-wrapper-subtitle {
+        font-family: Arial;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #1e1e1e;
+    }
+
+    .basicPrinciplesOfWorkWithPersonnel-arraw {
+        display: block;
+
+    }
+
+    .block-basicPrinciplesOfWorkWithPersonnel-wrapper-subtitle:after {
+        margin: 18px 0 40px 0;
+        width: 1080px;
+        min-height: 4px;
+        background-image: url(img/basicPrinciplesOfWorkWithPersonnel-line-1250.png);
+
+    }
+
+    .block-basicPrinciplesOfWorkWithPersonnel-wrapper-txt {
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #1e1e1e;
+    }
+
+    .page-main-block-theCompanyOffersItsEmployees {
+        margin: 105px 0 0 0;
+
+    }
+
+    .block-theCompanyOffersItsEmployees-header {
+        font-family: Arial;
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: 700;
+        color: #4764b0;
+        padding: 0 0 0 330px;
+    }
+
+    .container-theCompanyOffersItsEmployees {
+        margin: 105px 0 0 0;
+        min-height: 578px;
+        position: relative;
+
+    }
+
+    .block-theCompanyOffersItsEmployees-image {
+        width: 800px;
+        height: 578px;
+        background-image: url(img/theCompanyOffersItsEmployees-image-1250.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50px;
+    }
+
+    .block-theCompanyOffersItsEmployees-list {
+        width: 470px;
+        min-height: 866px;
+        padding: 50px 65px 65px 50px;
+        margin: 0;
+    }
+
+    .theCompanyOffersItsEmployees-list-item {
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+}
